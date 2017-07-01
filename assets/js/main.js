@@ -1,5 +1,6 @@
 //alert("existe");
 $(document).ready(function() {
-	alert("Working");
-
+	$("#open-hide").click(function() {
+		$(this).toggleClass("show");
+	});
 });
